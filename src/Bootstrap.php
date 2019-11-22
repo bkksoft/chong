@@ -9,5 +9,4 @@ class Bootstrap
         // Sets the protected $_url
         echo 'hello word';
     }
-
 }
