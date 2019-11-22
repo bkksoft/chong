@@ -1,7 +1,8 @@
 {
     "name": "bkksoft/chong",
+    "description": "BKKSOFT PHP framework",
     "type": "library",
-    "description": "BKKSOFT Chong PHP framework",
+    "license": "MIT",
     "authors": [
         {
             "name": "Chong",
@@ -12,10 +13,10 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Monolog": "src"
-        },
-        "files": [ "bootstrap.php" ]
+        }
     }
 }
