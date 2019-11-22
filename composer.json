@@ -1,0 +1,11 @@
+{
+    "name": "bkksoft/chong",
+    "license": "bkksoft",
+    "authors": [
+        {
+            "name": "Chong",
+            "email": "monkey.d.chong@gmail.com"
+        }
+    ],
+    "require": {}
+}
