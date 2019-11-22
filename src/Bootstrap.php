@@ -1,6 +1,6 @@
 <?php
 
-namespace BKKSOFT\Bootstrap;
+namespace Bkksoft;
 
 class Bootstrap
 {
