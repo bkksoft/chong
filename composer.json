@@ -15,8 +15,11 @@
     },
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
-            "Monolog": "src"
-        }
+        "psr-4": {
+            "Bkksoft\\Bootstrap\\": "src/Bootstrap"
+        },
+        "files": [
+            "src/Bootstrap.php"
+        ]
     }
 }
