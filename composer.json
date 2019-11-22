@@ -1,10 +1,20 @@
 {
     "name": "bkksoft/library",
+    "type": "library",
+    "description": "Bkksoft Library for PHP 5.3",
     "authors": [
         {
             "name": "Chong",
-            "email": "monkey.d.chong@gmail.com"
+            "email": "monkey.d.chong@gmail.com",
+            "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
 }
